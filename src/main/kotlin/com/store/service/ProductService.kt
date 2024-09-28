@@ -30,7 +30,8 @@ class ProductService {
             id = newId,
             name = productDetails.name,
             type = productDetails.type,
-            inventory = productDetails.inventory
+            inventory = productDetails.inventory,
+            cost = productDetails.cost
         )
         products.add(newProduct)
         return ProductId(id = newId)
